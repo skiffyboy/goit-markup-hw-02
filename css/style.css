@@ -18,13 +18,28 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.nav-item:hover {
+.nav-link {
+  color: #2e2f42;
+}
+.nav-link:hover {
   color: #404bbf;
 }
-.nav-item:focus {
+.nav-link:focus {
   color: #404bbf;
 }
 
+.nav-info {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.nav-info:hover {
+  color: #404bbf;
+}
+.nav-info:focus {
+  color: #404bbf;
+}
 /* Body */
 body {
   font-family: "Roboto", sans-serif;
@@ -83,6 +98,9 @@ body {
 .team {
   background-color: #f4f4fd;
 }
+.li-section {
+  background-color: #ffffff;
+}
 .main-section-name {
   font-size: 36px;
   line-height: 1.11;
@@ -97,6 +115,7 @@ body {
   letter-spacing: 0.02em;
   font-size: 20px;
   font-weight: 500;
+  color: #2e2f42;
 }
 .section-element {
   font-weight: 500;
