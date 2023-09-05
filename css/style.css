@@ -1,4 +1,5 @@
-/* Nav Section/Header */
+/* Web Studio Logo */
+
 .web-studio-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -11,15 +12,19 @@
 .span-studio {
   color: #2e2f42;
 }
-.nav-item {
+
+/* Studio/Portfolio/Contacts */
+.nav-link {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .nav-link {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
 }
 .nav-link:hover {
   color: #404bbf;
@@ -28,6 +33,10 @@
   color: #404bbf;
 }
 
+/* Email / Phone */
+.header-adress {
+  font-style: normal;
+}
 .nav-info {
   line-height: 1.5;
   font-size: 16px;
@@ -40,13 +49,14 @@
 .nav-info:focus {
   color: #404bbf;
 }
+
 /* Body */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-/* Effective Solution */
+/* Effective Solution Section*/
 .effective-solution {
   background: #2e2f42;
 }
@@ -116,9 +126,6 @@ body {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
-}
-.section-element {
-  font-weight: 500;
 }
 .section-paragraph {
   color: #434455;
